@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: #0fbedd;
+}
+
+h1 {
+  background-color: #0ab8b8;
+  color: #fff;
+  height: 5rem;
+  line-height: 5rem;
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: #220991;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+    margin-top: 5rem;
+}
