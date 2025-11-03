@@ -1,5 +1,6 @@
 const fs = require("fs");
 
+
 fs.readFile("employees.json", (err, data) => {
     if (err) {
         console.error("Error reading file:", err);
@@ -19,10 +20,6 @@ fs.readFile("employees.json", (err, data) => {
 
     const totalSalary = experiencedEmployees.reduce((sum, emp) => sum + emp.salary, 0);
     console.log("Sorted Employees");
-    console.table(sortedEmployees);
-
     console.log("Summary List");
-    console.table(summaryList);
-
     console.log(`Total Salary Expenditure: ₹${totalSalary}`);
 });
