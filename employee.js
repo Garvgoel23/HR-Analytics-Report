@@ -3,7 +3,7 @@ const fs = require("fs");
 
 fs.readFile("employees.json", (err, data) => {
     if (err) {
-        console.error("Error reading file:", err);
+        console.log("Error reading file:", err);
         return;
     }
     const employees = JSON.parse(data);
